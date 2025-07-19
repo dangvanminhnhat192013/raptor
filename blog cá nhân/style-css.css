@@ -1,11 +1,30 @@
 
-/* Thay đổi màu sắc cho p */
-h3 {
-color: yellow
-}
+
 /* Thay đổi màu sắc cho nền */
 
 body {
-background-color: aqua;
+background-color: #fdf3c0;
 }
+#doraemon {
+color: #ffa114;
 
+}
+#website {
+color: #ffa114;
+font-size: 20px;
+}
+#cartoon {
+    
+    color: #ffa114;
+   padding: 0.4cm;
+   background-color: #ffd864;
+   margin: 0.4cm;
+   width: fit-content;
+   padding-left: 1cm;
+   padding-right: 1cm;
+   font-size: 16px;
+}
+#mon {
+color: black;
+font-size: 35px;
+}
