@@ -1,0 +1,45 @@
+/* Thay đổi màu sắc cho nền */
+
+body {
+    background-color:#ffa114;
+}
+
+#doraemon {
+    color: #ffa114;
+
+}
+
+#website {
+    color: #ffa114;
+    font-size: 20px;
+}
+
+#cartoon {
+
+    color: #ffa114;
+    margin-top: 1cm;
+    padding: 0.2cm;
+    background-color:#ffd864;
+    width: fit-content;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    font-size: 16px;
+}
+
+#mon {
+    color: black;
+    font-size: 35px;
+}
+.doraemon {
+width: 250px;
+height: 250px;
+position: absolute;
+right: 0px;
+}
+#background-color {
+background-color:#fdf3c0;
+width: 200px;
+height: 400px;
+padding-left: 400px;
+padding-right: 2000px;
+}
