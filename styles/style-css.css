@@ -12,7 +12,6 @@ body {
     color: #ffa114;
     position: relative;
     left: 20px;
-    top: 35px;
     font-size: 88.2px;
 }
 
@@ -20,7 +19,7 @@ body {
     color: #ffa114;
     font-size: 35.6px;
     position: relative;
-    top: 50px;
+    top: 30px;
     left: 20px;
 
 }
@@ -37,7 +36,7 @@ body {
     font-size: 16px;
     position: relative;
     left: 20px;
-    top: 50px;
+    top: 10px;
 }
 
 #mon {
@@ -50,18 +49,19 @@ body {
     height: 200px;
     position: absolute;
     right: 100px;
-    bottom: 50px;
+    bottom: 100px;
 }
 
 #background-color {
     background-color: #fdf3c0;
     position: relative;
-    height: 100vh;
-
+    height: 70vh;
+    padding: 50px;
 }
 
 #hinh-anh-doraemon {
     position: relative;
+    padding: 140px;
+  right: 100vh;
 }
 
-#divv {}
