@@ -1,17 +1,28 @@
 /* Thay đổi màu sắc cho nền */
+html {
+    padding: 0;
+}
 
 body {
-    background-color:#ffa114;
+    background-color: #ffa114;
+    margin: 0px;
 }
 
 #doraemon {
     color: #ffa114;
-
+    position: relative;
+    left: 20px;
+    top: 35px;
+    font-size: 88.2px;
 }
 
 #website {
     color: #ffa114;
-    font-size: 20px;
+    font-size: 35.6px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+
 }
 
 #cartoon {
@@ -19,27 +30,38 @@ body {
     color: #ffa114;
     margin-top: 1cm;
     padding: 0.2cm;
-    background-color:#ffd864;
+    background-color: #ffd864;
     width: fit-content;
     padding-left: 1cm;
     padding-right: 1cm;
     font-size: 16px;
+    position: relative;
+    left: 20px;
+    top: 50px;
 }
 
 #mon {
     color: black;
     font-size: 35px;
 }
+
 .doraemon {
-width: 250px;
-height: 250px;
-position: absolute;
-right: 0px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
 }
+
 #background-color {
-background-color:#fdf3c0;
-width: 200px;
-height: 400px;
-padding-left: 400px;
-padding-right: 2000px;
+    background-color: #fdf3c0;
+    position: relative;
+    height: 100vh;
+
 }
+
+#hinh-anh-doraemon {
+    position: relative;
+}
+
+#divv {}
