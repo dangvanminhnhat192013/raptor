@@ -52,16 +52,33 @@ body {
     bottom: 100px;
 }
 
-#background-color {
+#nen {
     background-color: #fdf3c0;
     position: relative;
     height: 70vh;
     padding: 50px;
 }
-
-#hinh-anh-doraemon {
+#trang-hai {
+    background-color:aqua;
     position: relative;
-    padding: 140px;
-  right: 100vh;
+    height: 70vh;
+    padding: 50px;
 }
-
+.doraemon-hai {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 30px;
+}
+#tieu-de-gioi-thieu {
+        font-size: 43px;
+        position: absolute;
+        right: 100px;
+        top: 50px;
+}
+#gioi-thieu {
+    font-size: 15px;
+    position: absolute;
+    right: 100px;
+    bottom: 130px;
+}
