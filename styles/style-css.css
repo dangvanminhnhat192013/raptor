@@ -42,6 +42,8 @@ body {
 #mon {
     color: black;
     font-size: 35px;
+    position: relative;
+    left: 60px;
 }
 
 .doraemon {
@@ -58,27 +60,75 @@ body {
     height: 70vh;
     padding: 50px;
 }
+
 #trang-hai {
-    background-color:aqua;
+    background-color: #ffd864;
     position: relative;
     height: 70vh;
     padding: 50px;
 }
+
 .doraemon-hai {
     width: 300px;
     height: 300px;
     position: relative;
     top: 30px;
+    left: 500px;
 }
+
 #tieu-de-gioi-thieu {
-        font-size: 43px;
-        position: absolute;
-        right: 100px;
-        top: 50px;
+    font-size: 43px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
 }
+
 #gioi-thieu {
     font-size: 15px;
     position: absolute;
-    right: 100px;
-    bottom: 130px;
+    right: 540px;
+    top: 110px;
+}
+
+#anh-toan {
+    position: relative;
+    left: 80px;
+}
+
+#toan {
+    position: relative;
+    left: 80px;
+}
+
+#loi-ich-cua-mon-toan {
+    position: relative;
+    left: 80px;
+}
+
+#anh-tieng-anh {
+    position: relative;
+    left: 80px;
+}
+
+#tieng-anh {
+    position: relative;
+    left: 80px;
+}
+
+#loi-ich-cua-hoc-tieng-anh {
+    position: relative;
+    left: 80px;
+}
+
+#tin {
+    position: relative;
+    left: 80px;
+}
+
+#loi-ich-hoc-tin {
+    position: relative;
+    left: 80px;
+}
+#trang-bon {
+    background-color: #fdf3c0;
 }
