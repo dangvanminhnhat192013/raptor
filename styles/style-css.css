@@ -41,7 +41,7 @@ body {
 
 #mon {
     color: black;
-    font-size: 35px;
+    font-size: 43px;
     position: relative;
     left: 60px;
 }
@@ -98,11 +98,13 @@ body {
 #toan {
     position: relative;
     left: 80px;
+    font-size: 21px;
 }
 
 #loi-ich-cua-mon-toan {
     position: relative;
     left: 80px;
+    font-size:15px ;
 }
 
 #anh-tieng-anh {
@@ -113,22 +115,45 @@ body {
 #tieng-anh {
     position: relative;
     left: 80px;
+    font-size: 21px;
 }
 
 #loi-ich-cua-hoc-tieng-anh {
     position: relative;
     left: 80px;
+    font-size:15px ;
 }
 
 #tin {
     position: relative;
     left: 80px;
+    font-size: 21px;
 }
 
 #loi-ich-hoc-tin {
     position: relative;
     left: 80px;
+    font-size:15px ;
 }
 #trang-bon {
     background-color: #fdf3c0;
+}
+#mon-an {
+    font-size: 43px;
+    position: relative;
+    left: 60px;
+}
+#anh-sau-rieng {
+    position: relative;
+    left: 80px;
+}
+#sau-rieng {
+    position: relative;
+    left: 80px;
+    font-size: 21px;
+}
+#loi-ich-cua-sau-rieng {
+    position: relative;
+    left: 80px;
+    font-size:15px ;
 }
