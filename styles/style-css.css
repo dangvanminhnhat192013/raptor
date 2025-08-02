@@ -1,73 +1,159 @@
-/* Cấu hình chung cho body */
+/* Thay đổi màu sắc cho nền */
+html {
+    padding: 0;
+}
+
 body {
-  background-color: rgb(220, 230, 173); /* Màu nền của trang */
-  font-family: Arial, sans-serif; /* Phông chữ chung */
-  margin: 0;
-  padding: 20px;
+    background-color: #ffa114;
+    margin: 0px;
 }
 
-/* Thay đổi màu sắc cho h1 */
-h1 {
-  color: #177820;/*HEX*/
-  background-color: yellow; /* Màu nền. Sử dụng tên */
-  opacity: 0.8; /* Độ trong suốt */
-  font-size: 36px; /* Kích thước chữ */
-  text-align: center; /* Căn giữa văn bản */
-  padding: 10px;
-  border-radius: 8px; /* Bo góc cho tiêu đề */
+#doraemon {
+    color: #ffa114;
+    position: relative;
+    left: 20px;
+    font-size: 88.2px;
 }
 
-#sub-title-id {
-  text-align: left; /* Căn trái cho tiêu đề phụ */
-  color: rgb(220, 230, 173); /* Màu chữ. Màu RGB*/
+#website {
+    color: #ffa114;
+    font-size: 35.6px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+
 }
 
-.sub-title {
-  text-align: left; /* Căn trái cho các tiêu đề phụ */
-  color: green; /* Màu chữ */
+#cartoon {
+
+    color: #ffa114;
+    margin-top: 1cm;
+    padding: 0.2cm;
+    background-color: #ffd864;
+    width: fit-content;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    font-size: 16px;
+    position: relative;
+    left: 20px;
+    top: 10px;
 }
 
-/* Thay đổi màu sắc cho h2 */
-h2 {
-  color: blue; /* Màu chữ */
-  background-color: lightgreen; /* Màu nền */
-  font-size: 28px; /* Kích thước chữ */
-  text-align: center; /* Căn giữa văn bản */
-  padding: 8px;
-  border-radius: 8px; /* Bo góc cho tiêu đề phụ */
+#mon {
+    color: black;
+    font-size: 43px;
+    position: relative;
+    left: 60px;
 }
 
-/* Thay đổi màu sắc cho các đoạn văn p */
-p {
-  color: purple; /* Màu chữ */
-  font-size: 18px; /* Kích thước chữ */
-  background-color: pink; /* Màu nền */
-  padding: 12px;
-  border-radius: 5px; /* Bo góc cho các đoạn văn */
-  margin-bottom: 10px;
-}
-/* Selector theo ID */
-#unique {
-  font-size: 20px;
-  color: rgb(255, 99, 71);
-  /* Màu đỏ */
-  font-weight: bold;
+.doraemon {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
 }
 
-/* External CSS style (sử dụng selector theo class) */
-.button {
-  background-color: #4caf50;
-  /* Màu xanh lá */
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 8px;
-}
-.button:hover {
-  background-color: rgba(76, 175, 80, 0.8);
-  /* Màu nền thay đổi khi hover */
+#nen {
+    background-color: #fdf3c0;
+    position: relative;
+    height: 70vh;
+    padding: 50px;
 }
 
+#trang-hai {
+    background-color: #ffd864;
+    position: relative;
+    height: 70vh;
+    padding: 50px;
+}
+
+.doraemon-hai {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 30px;
+    left: 500px;
+}
+
+#tieu-de-gioi-thieu {
+    font-size: 43px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+#gioi-thieu {
+    font-size: 15px;
+    position: absolute;
+    right: 540px;
+    top: 110px;
+}
+
+#anh-toan {
+    position: relative;
+    left: 80px;
+}
+
+#toan {
+    position: relative;
+    left: 80px;
+    font-size: 21px;
+}
+
+#loi-ich-cua-mon-toan {
+    position: relative;
+    left: 80px;
+    font-size:15px ;
+}
+
+#anh-tieng-anh {
+    position: relative;
+    left: 80px;
+}
+
+#tieng-anh {
+    position: relative;
+    left: 80px;
+    font-size: 21px;
+}
+
+#loi-ich-cua-hoc-tieng-anh {
+    position: relative;
+    left: 80px;
+    font-size:15px ;
+}
+
+#tin {
+    position: relative;
+    left: 80px;
+    font-size: 21px;
+}
+
+#loi-ich-hoc-tin {
+    position: relative;
+    left: 80px;
+    font-size:15px ;
+}
+#trang-bon {
+    background-color: #fdf3c0;
+}
+#mon-an {
+    font-size: 43px;
+    position: relative;
+    left: 60px;
+}
+#anh-sau-rieng {
+    position: relative;
+    left: 80px;
+}
+#sau-rieng {
+    position: relative;
+    left: 80px;
+    font-size: 21px;
+}
+#loi-ich-cua-sau-rieng {
+    position: relative;
+    left: 80px;
+    font-size:15px ;
+}
