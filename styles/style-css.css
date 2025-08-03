@@ -90,69 +90,106 @@ body {
     top: 110px;
 }
 
-#anh-toan {
-    position: relative;
-    left: 80px;
-}
-
 #toan {
-    position: relative;
-    left: 80px;
     font-size: 21px;
 }
 
 #loi-ich-cua-mon-toan {
-    position: relative;
-    left: 80px;
-    font-size:15px ;
+    font-size: 15px;
 }
 
-#anh-tieng-anh {
-    position: relative;
-    left: 80px;
-}
 #tieng-anh {
-    position: relative;
-    left: 80px;
     font-size: 21px;
 }
 
 #loi-ich-cua-hoc-tieng-anh {
-    position: relative;
-    left: 80px;
-    font-size:15px ;
+    font-size: 15px;
 }
 
 #tin {
-    position: relative;
-    left: 80px;
     font-size: 21px;
 }
 
 #loi-ich-hoc-tin {
-    position: relative;
-    left: 80px;
-    font-size:15px ;
+    font-size: 15px;
 }
+
 #trang-bon {
     background-color: #fdf3c0;
+    padding: 50px;
 }
+
 #mon-an {
     font-size: 43px;
     position: relative;
     left: 60px;
 }
+
 #anh-sau-rieng {
     position: relative;
     left: 80px;
 }
+
 #sau-rieng {
     position: relative;
     left: 80px;
     font-size: 21px;
 }
+
 #loi-ich-cua-sau-rieng {
     position: relative;
     left: 80px;
-    font-size:15px ;
+    font-size: 15px;
+}
+
+#tat-ca-cac-mon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#toan-container {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 80px;
+}
+
+#tin-container {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 80px;
+}
+
+#tieng-anh-container {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 80px;
+}
+
+#sau-rieng-container {
+    position: relative;
+    left: 80px;
+}
+
+#nuoc-cam-container {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+#nuoc-dua-container {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 70px;
+}
+
+#nuoc-uong-container {
+}
+#nuoc-uong {
+    position: relative;
+    left: 80px;
+    font-size: 43px;
+}
+#trang-nam {
+    background-color: #ffd864;
 }
