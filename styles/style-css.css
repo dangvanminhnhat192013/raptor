@@ -172,24 +172,31 @@ body {
     left: 80px;
 }
 
+#nuoc-uong-containet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 #nuoc-cam-container {
     flex-basis: 0;
     flex-grow: 1;
+    padding: 80px;
 }
 
 #nuoc-dua-container {
     flex-basis: 0;
     flex-grow: 1;
-    padding: 70px;
+    padding: 80px;
 }
 
-#nuoc-uong-container {
-}
 #nuoc-uong {
     position: relative;
     left: 80px;
     font-size: 43px;
 }
+
 #trang-nam {
     background-color: #ffd864;
 }
