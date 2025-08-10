@@ -37,6 +37,13 @@ body {
     position: relative;
     left: 20px;
     top: 10px;
+    
+}
+#cartoon:hover {
+ transform:scale(1, 2) rotate(60deg); 
+ transition-timing-function:ease;
+ transition-property:all;
+
 }
 
 #mon {
