@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: #ffa114;
+    background-color:#ffa114;
     margin: 0px;
 }
 
@@ -38,11 +38,28 @@ body {
     left: 20px;
     top: 10px;
     
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(248, 249, 250);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+        margin-bottom: 30px;
+        border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: rgb(240, 147, 251);
+
 }
 #cartoon:hover {
- transform:scale(1, 2) rotate(60deg); 
- transition-timing-function:ease;
- transition-property:all;
+
+
 
 }
 
@@ -206,4 +223,17 @@ body {
 
 #trang-nam {
     background-color: #ffd864;
+}
+.menu {
+    font-size: 20px;
+    background-color: white;
+    position: relative;
+    padding: 10px;
+}
+.menu-trang-chu {
+ display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
 }
