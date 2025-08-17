@@ -4,28 +4,27 @@ html {
 }
 
 body {
-    background-color:#ffa114;
+    background-color: #ffa114;
     margin: 0px;
 }
 
 #doraemon {
     color: #ffa114;
     position: relative;
-    left: 20px;
-    font-size: 88.2px;
+    font-size: 70px;
 }
 
 #website {
     color: #ffa114;
     font-size: 35.6px;
     position: relative;
-    top: 30px;
-    left: 20px;
+    
+   
 
 }
 
 .hover-size-button {
-background:#ffa114;
+    background: #ffa114;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -36,18 +35,17 @@ background:#ffa114;
     display: inline-block;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    position:relative;
-    left: 20px
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
+
 .hover-size-button:hover {
-     background: #e2b808;
+    background: #e2b808;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 }
-  
+
 #mon {
     color: black;
     font-size: 43px;
@@ -55,19 +53,20 @@ background:#ffa114;
     left: 60px;
 }
 
-.doraemon {
+.animation {
     width: 200px;
     height: 200px;
     position: absolute;
     right: 100px;
-    bottom: 100px;
+    bottom: 50px;
+    
 }
 
 #nen {
     background-color: #fdf3c0;
     position: relative;
     height: 70vh;
-    padding: 50px;
+    padding: 50px 50px 50px ;
 }
 
 #trang-hai {
@@ -209,14 +208,16 @@ background:#ffa114;
 #trang-nam {
     background-color: #ffd864;
 }
+
 .menu {
     font-size: 20px;
     background-color: white;
     position: relative;
     padding: 10px;
 }
+
 .menu-trang-chu {
- display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
