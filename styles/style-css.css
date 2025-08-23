@@ -8,13 +8,13 @@ body {
     margin: 0px;
 }
 
-#doraemon {
+.doraemon {
     color: #ffa114;
     position: relative;
     font-size: 70px;
 }
 
-#website {
+.website {
     color: #ffa114;
     font-size: 35.6px;
     position: relative;
@@ -46,7 +46,7 @@ body {
 
 }
 
-#mon {
+.mon {
     color: black;
     font-size: 43px;
     position: relative;
@@ -54,22 +54,20 @@ body {
 }
 
 .animation {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    right: 100px;
-    bottom: 50px;
-    
+    posion:relative;
+    width: 200px;    
+    height:200px; 
 }
 
-#nen {
-    background-color: #fdf3c0;
+.nen {
+    background-color:#fdf3c0;
     position: relative;
-    height: 70vh;
-    padding: 50px 50px 50px ;
+    height: 80vh;
+    padding:50px;
 }
+menu
 
-#trang-hai {
+.trang-hai {
     background-color: #ffd864;
     position: relative;
     height: 70vh;
@@ -84,128 +82,128 @@ body {
     left: 350px;
 }
 
-#tieu-de-gioi-thieu {
+.tieu-de-gioi-thieu {
     font-size: 43px;
     position: absolute;
     right: 100px;
     top: 50px;
 }
 
-#gioi-thieu {
+.gioi-thieu {
     font-size: 15px;
     position: absolute;
     right: 540px;
     top: 110px;
 }
 
-#toan {
+.toan {
     font-size: 21px;
 }
 
-#loi-ich-cua-mon-toan {
+.loi-ich-cua-mon-toan {
     font-size: 15px;
 }
 
-#tieng-anh {
+.tieng-anh {
     font-size: 21px;
 }
 
-#loi-ich-cua-hoc-tieng-anh {
+.loi-ich-cua-hoc-tieng-anh {
     font-size: 15px;
 }
 
-#tin {
+.tin {
     font-size: 21px;
 }
 
-#loi-ich-hoc-tin {
+.loi-ich-hoc-tin {
     font-size: 15px;
 }
 
-#trang-bon {
+.trang-bon {
     background-color: #fdf3c0;
     padding: 50px;
 }
 
-#mon-an {
+.mon-an {
     font-size: 43px;
     position: relative;
     left: 60px;
 }
 
-#anh-sau-rieng {
+.anh-sau-rieng {
     position: relative;
     left: 80px;
 }
 
-#sau-rieng {
+.sau-rieng {
     position: relative;
     left: 80px;
     font-size: 21px;
 }
 
-#loi-ich-cua-sau-rieng {
+.loi-ich-cua-sau-rieng {
     position: relative;
     left: 80px;
     font-size: 15px;
 }
 
-#tat-ca-cac-mon {
+.tat-ca-cac-mon {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-#toan-container {
+.toan-container {
     flex-basis: 0;
     flex-grow: 1;
     padding: 80px;
 }
 
-#tin-container {
+.tin-container {
     flex-basis: 0;
     flex-grow: 1;
     padding: 80px;
 }
 
-#tieng-anh-container {
+.tieng-anh-container {
     flex-basis: 0;
     flex-grow: 1;
     padding: 80px;
 }
 
-#sau-rieng-container {
+.sau-rieng-container {
     position: relative;
     left: 80px;
 }
 
-#nuoc-uong-containet {
+.nuoc-uong-containet {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-#nuoc-cam-container {
+.nuoc-cam-container {
     flex-basis: 0;
     flex-grow: 1;
     padding: 80px;
 }
 
-#nuoc-dua-container {
+.nuoc-dua-container {
     flex-basis: 0;
     flex-grow: 1;
     padding: 80px;
 }
 
-#nuoc-uong {
+.nuoc-uong {
     position: relative;
     left: 80px;
     font-size: 43px;
 }
 
-#trang-nam {
+.trang-nam {
     background-color: #ffd864;
 }
 
