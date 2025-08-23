@@ -1,4 +1,10 @@
 /* Thay đổi màu sắc cho nền */
+.menu {
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}
 html {
     padding: 0;
 }
@@ -54,46 +60,58 @@ body {
 }
 
 .animation {
-    posion:relative;
-    width: 200px;    
-    height:200px; 
-}
+    position: absolute;
+    right: 50px;    
+    height:400px; 
+    bottom: 50px;
+    animation-name: simple;
+    animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation: simple 2s ease-in-out infinite alternate;
 
+}
+@keyframes simple {
+    from { transform: translateX(-300px); }
+    to { transform: translateX(50px); }
+
+}
 .nen {
     background-color:#fdf3c0;
     position: relative;
     height: 80vh;
     padding:50px;
 }
-menu
+
+
 
 .trang-hai {
+    display:flex;
     background-color: #ffd864;
-    position: relative;
+    position: static;
     height: 70vh;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
+
+    
 }
 
 .doraemon-hai {
     width: 300px;
     height: 300px;
-    position: relative;
-    top: 30px;
-    left: 350px;
 }
 
 .tieu-de-gioi-thieu {
     font-size: 43px;
-    position: absolute;
-    right: 100px;
-    top: 50px;
 }
 
 .gioi-thieu {
     font-size: 15px;
-    position: absolute;
-    right: 540px;
-    top: 110px;
+}
+.tieu-de-gioi-thieu-container {
+    margin-left: 50px;
 }
 
 .toan {
