@@ -10,12 +10,12 @@ html {
 }
 
 body {
-    background-color: #ffa114;
+    overflow-x: hidden;
     margin: 0px;
 }
 
 .doraemon {
-    color: #ffa114;
+    color: #0031c1;
     position: relative;
     font-size: 70px;
 }
@@ -55,8 +55,8 @@ body {
 .mon {
     color: black;
     font-size: 43px;
-    position: relative;
-    left: 60px;
+    
+    
 }
 
 .animation {
@@ -71,6 +71,7 @@ body {
 	animation-direction: alternate;
 	animation: simple 2s ease-in-out infinite alternate;
 
+
 }
 @keyframes simple {
     from { transform: translateX(-300px); }
@@ -78,7 +79,7 @@ body {
 
 }
 .nen {
-    background-color:#fdf3c0;
+    background-color:#c3f1ff;
     position: relative;
     height: 80vh;
     padding:50px;
@@ -96,6 +97,10 @@ body {
     align-items: center;
 
     
+}
+.trang-ba {
+    background-color:lightblue;
+    padding: 50px;
 }
 
 .doraemon-hai {
@@ -145,78 +150,67 @@ body {
 
 .mon-an {
     font-size: 43px;
-    position: relative;
-    left: 60px;
+    
 }
 
 .anh-sau-rieng {
-    position: relative;
-    left: 80px;
+  
 }
 
 .sau-rieng {
-    position: relative;
-    left: 80px;
+   
     font-size: 21px;
 }
 
 .loi-ich-cua-sau-rieng {
-    position: relative;
-    left: 80px;
+    
     font-size: 15px;
 }
 
 .tat-ca-cac-mon {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
+    gap: 100px;
+    
 }
 
-.toan-container {
-    padding: 20px;
-}
-
-.tin-container {
-    padding: 20px;
-}
-
-.tieng-anh-container {
-    padding: 20px;
+.subject-container {
+    flex: 1;
 }
 
 .sau-rieng-container {
     position: relative;
     left: 80px;
+    
 }
-
-.nuoc-uong-containet {
+.anh-sau-rieng {
+    width: 300px;
+    
+}
+.nuoc-uong-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 100px;
 }
 
-.nuoc-cam-container {
-    flex-basis: 0;
-    flex-grow: 1;
-    padding: 80px;
-}
 
-.nuoc-dua-container {
-    flex-basis: 0;
-    flex-grow: 1;
-    padding: 80px;
+.drink-container {
+    flex: 1;
 }
 
 .nuoc-uong {
-    position: relative;
-    left: 80px;
     font-size: 43px;
+    position: relative;
+    left: 20px;
 }
 
 .trang-nam {
     background-color: #ffd864;
+    padding: 50px;
 }
 
 .menu {
@@ -235,6 +229,7 @@ body {
 }
 .navbar {
     padding: 20px;
+    background: linear-gradient(45deg, #ffa114, #ffd864, #fdf3c0)
 }
 .nav-container {
     display:flex;
@@ -262,4 +257,11 @@ body {
     color:rgb(77, 82, 131);
     font-weight: 800;
     font-size:32px;
+}
+.trang-sau {
+    background-color: lightblue;
+    padding: 50px;
+}
+.phim {
+font-size: 43px;
 }
