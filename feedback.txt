@@ -1,0 +1,6 @@
+1. Không sử dụng background-color trong body
+2. tôi tên nhật. 13 tuổi -> cần phải viết thêm nhiều thứ nữa
+3. Lỗi hình ảnh
+4. Canh lề không đồng đều giữa các trang.
+5. Menu thêm 1 nút nữa: Những bài học
+6. Khi vào trang những bài học thì sẽ viết cảm nghĩ, những bài học rút ra qua các ngày học

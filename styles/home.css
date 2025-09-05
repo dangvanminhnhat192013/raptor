@@ -10,7 +10,8 @@ html {
 }
 
 body {
-    background-color: #ffa114;
+    
+	overflow-x: hidden;
     margin: 0px;
 }
 
@@ -234,6 +235,7 @@ body {
 
 }
 .navbar {
+	background: linear-gradient(45deg,#ff6f00, #ffa114);
     padding: 20px;
 }
 .nav-container {
