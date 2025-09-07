@@ -95,6 +95,7 @@ body {
     padding: 50px;
     justify-content: center;
     align-items: center;
+    
 
     
 }
@@ -106,6 +107,13 @@ body {
 .doraemon-hai {
     width: 300px;
     height: 300px;
+
+
+}
+.doraemon-hai-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .tieu-de-gioi-thieu {
@@ -113,10 +121,11 @@ body {
 }
 
 .gioi-thieu {
-    font-size: 15px;
+    font-size: 30px;
 }
 .tieu-de-gioi-thieu-container {
     margin-left: 50px;
+    flex: 1;
 }
 
 .toan {
@@ -201,11 +210,15 @@ body {
 .drink-container {
     flex: 1;
 }
+.tieu-de {
+    font-size: 43px;
+}
 
 .nuoc-uong {
     font-size: 43px;
     position: relative;
     left: 20px;
+    margin
 }
 
 .trang-nam {
@@ -270,5 +283,5 @@ font-size: 43px;
 }
 .lessons:hover {
     background:#0031c1;
-    
+
 }
