@@ -265,3 +265,10 @@ body {
 .phim {
 font-size: 43px;
 }
+.lessons {
+    background: black;
+}
+.lessons:hover {
+    background:#0031c1;
+    
+}
