@@ -1,2 +1,3 @@
 console.log("nhat");
-let
+/* xin chào */
+console.log(xin-chào);
