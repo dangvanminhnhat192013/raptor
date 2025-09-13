@@ -82,16 +82,20 @@ background: white;
 .tieu-de-noi-dung {
     font-size: 20px;
     position: relative;
-    left:20px
+    left:20px;
+    
     
 }
 .tieu-de-toan:hover {
     color:red;
+    text-decoration: none;
 
 }
 .noi-dung-toan- {
     font-style: italic;
     font-weight: none;
+    text-decoration: none;
+
 }
 .bai-hoc-2-hover {
     font-size: 30px;
@@ -170,4 +174,89 @@ background: white;
 }
 .tieu-de-tieng-anh:hover {
     color:red;
+}
+.Bai-hoc-4-hover {
+    font-size: 30px;
+    position: relative;
+    background: white;
+    color:blue;
+    padding: 20px 49px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display:flex;
+    top: 150px;
+}
+.Bai-hoc-4-hover:hover {
+
+background: white;
+    transform: translateY(-15px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.anh-tieang-anh {
+        width: 80px;
+    height: 80px;
+    position:relative;
+    top:20px;
+    border-radius: 8px;
+}
+.tieu-de-noi-dung-4 {
+font-size: 20px;
+    position: relative;
+    left:20px;
+    color: blue;
+
+}
+.tieu-de-doraemon:hover {
+    color: red;
+}
+.anh-doraemon {
+            width: 80px;
+    height: 80px;
+    position:relative;
+    top:20px;
+    border-radius: 8px;
+}
+.bai-hoc-5-hover {
+     font-size: 30px;
+    position: relative;
+    background: white;
+    color:blue;
+    padding: 20px 49px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display:flex;
+    top: 200px;
+}
+.bai-hoc-5-hover:hover {
+    background: white;
+    transform: translateY(-15px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.anh-ky-nang-song {
+                width: 80px;
+    height: 80px;
+    position:relative;
+    top:20px;
+    border-radius: 8px;
+}
+.tieu-de-noi-dung {
+    font-size: 20px;
+    position: relative;
+    left:20px;
+    color: blue;
+}
+.tieu-de-ky-nang-song {
+    color: red;
 }

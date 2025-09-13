@@ -1,0 +1,35 @@
+body {
+    background-color:lightblue;
+}
+.laptrinh-web {
+    position: relative;
+    background: yellow;
+    color:blue;
+    padding: 20px 49px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display:flex;
+    position:relative;
+    
+}
+.laptrinh-tieu-de {
+    font-size:20px;
+    display: flex;
+    align-items: center;
+}
+.anh-laptrinh {
+    width: 300px;
+    height:200px;
+    position:relative;
+    top: 50px;
+}
+.bai-hoc-tin {
+    position: relative;
+    top: 50px;
+}
