@@ -1,9 +1,13 @@
 body {
-background-color:aliceblue;
+background-color:blue;
+overflow-x: hidden;
 }
 .navbar {
-    padding: 20px;
-    background-color: yellow;
+    padding: 25px;
+    background: linear-gradient(45deg, #ffa114, #ffd864, #fdf3c0);
+    position:relative;
+    
+
 }
 .nav-container {
     display:flex;
@@ -38,7 +42,7 @@ background-color:aliceblue;
     color:red;
     position:relative;
 left: 70px;
-font-weight: 900;
+font-weight: bold;
 }
 .noi-dung {
  font-size: 23px;
@@ -88,4 +92,82 @@ background: white;
 .noi-dung-toan- {
     font-style: italic;
     font-weight: none;
+}
+.bai-hoc-2-hover {
+    font-size: 30px;
+    position: relative;
+    background: white;
+    color:blue;
+    padding: 20px 49px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display:flex;
+    top: 50px;
+}
+.bai-hoc-2-hover:hover {
+background: white;
+    transform: translateY(-15px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+.anh-tin {
+     width: 80px;
+    height: 80px;
+    position:relative;
+    top:20px;
+    border-radius: 8px;
+}
+.tieu-de-noi-dung-2 {
+       font-size: 20px;
+    position: relative;
+    left:20px;
+    color: blue;
+}
+.tieu-de.tin:hover {
+    color: red;
+}
+.bai-hoc-3-hover {
+    font-size: 30px;
+    position: relative;
+    background: white;
+    color:blue;
+    padding: 20px 49px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display:flex;
+    top: 100px;
+}
+.bai-hoc-3-hover:hover {
+    background: white;
+    transform: translateY(-15px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.anh-tieng-anh {
+    width: 80px;
+    height: 80px;
+    position:relative;
+    top:20px;
+    border-radius: 8px;
+}
+.tieu-de-noi-dung-3 {
+      font-size: 20px;
+    position: relative;
+    left:20px;
+    color: blue;
+
+}
+.tieu-de-tieng-anh:hover {
+    color:red;
 }
