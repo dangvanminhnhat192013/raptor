@@ -1,59 +1,68 @@
 body {
-background-color:antiquewhite;
-overflow-x: hidden;
+    background-color: antiquewhite;
+    overflow-x: hidden;
 }
+
 .navbar {
     padding: 25px;
     background: linear-gradient(45deg, #ffa114, #ffd864, #fdf3c0);
-    position:relative;
-    
+    position: relative;
+
 
 }
+
 .nav-container {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    align-items:center;
-    
+    justify-content: space-around;
+    align-items: center;
+
 }
+
 .nav-menu {
     display: flex;
     flex-direction: row;
     list-style: none;
     padding: 0px;
 }
+
 .nav-link {
     padding: 20px;
-    color:black;
+    color: black;
     text-decoration: none;
 }
+
 .nav-link:hover {
     color: lightblue;
     text-decoration: underline;
     box-shadow: 15px;
 }
+
 .logo {
-    color:rgb(77, 82, 131);
+    color: rgb(77, 82, 131);
     font-weight: 800;
-    font-size:32px;
+    font-size: 32px;
 }
+
 .nhung-bai-hoc {
     font-size: 30px;
-    color:red;
-    position:relative;
-left: 70px;
-font-weight: bold;
+    color: red;
+    position: relative;
+    left: 70px;
+    font-weight: bold;
 }
-.noi-dung {
- font-size: 23px;
- position:relative;
- left: 70px;
+
+.noi-dung-web {
+    font-size: 23px;
+    position: relative;
+    left:70px;
 }
-.bai-hoc-1-hover {
+
+.bai-hoc-hover {
     font-size: 30px;
     position: relative;
     background: white;
-    color:blue;
+    color: blue;
     padding: 20px 50px;
     border: none;
     border-radius: 6px;
@@ -63,278 +72,42 @@ font-weight: bold;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display:flex;
+    display: flex;
+    margin-bottom: 30px;
 }
-.bai-hoc-1-hover:hover {
-background: white;
+
+.bai-hoc-hover:hover {
+    background: white;
     transform: translateY(-15px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
-    }
 
-.toan-1 {
+}
+
+.anh {
     width: 80px;
     height: 80px;
-    position:relative;
-    top:20px;
+    position: relative;
+    top: 20px;
     border-radius: 8px;
 }
+
 .tieu-de-noi-dung {
     font-size: 20px;
     position: relative;
-    left:20px;
-    
-    
-}
-.tieu-de-toan:hover {
-    color:red;
-    text-decoration: none;
+    left: 20px;
+
 
 }
-.noi-dung-toan- {
+
+.tieu-de:hover {
+    color: red;
+    text-decoration: none;
+}
+
+
+.noi-dung {
     font-style: italic;
     font-weight: none;
     text-decoration: none;
 
-}
-.bai-hoc-2-hover {
-    font-size: 30px;
-    position: relative;
-    background: white;
-    color:blue;
-    padding: 20px 49px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: none;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display:flex;
-    top: 50px;
-}
-.bai-hoc-2-hover:hover {
-background: white;
-    transform: translateY(-15px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
-}
-.anh-tin {
-     width: 80px;
-    height: 80px;
-    position:relative;
-    top:20px;
-    border-radius: 8px;
-}
-.tieu-de-noi-dung-2 {
-       font-size: 20px;
-    position: relative;
-    left:20px;
-    color: blue;
-}
-.tieu-de.tin:hover {
-    color: red;
-}
-.bai-hoc-3-hover {
-    font-size: 30px;
-    position: relative;
-    background: white;
-    color:blue;
-    padding: 20px 49px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: none;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display:flex;
-    top: 100px;
-}
-.bai-hoc-3-hover:hover {
-    background: white;
-    transform: translateY(-15px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.anh-tieng-anh {
-    width: 80px;
-    height: 80px;
-    position:relative;
-    top:20px;
-    border-radius: 8px;
-}
-.tieu-de-noi-dung-3 {
-      font-size: 20px;
-    position: relative;
-    left:20px;
-    color: blue;
-
-}
-.tieu-de-tieng-anh:hover {
-    color:red;
-}
-.Bai-hoc-4-hover {
-    font-size: 30px;
-    position: relative;
-    background: white;
-    color:blue;
-    padding: 20px 49px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: none;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display:flex;
-    top: 150px;
-}
-.Bai-hoc-4-hover:hover {
-
-background: white;
-    transform: translateY(-15px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.anh-tieang-anh {
-        width: 80px;
-    height: 80px;
-    position:relative;
-    top:20px;
-    border-radius: 8px;
-}
-.tieu-de-noi-dung-4 {
-font-size: 20px;
-    position: relative;
-    left:20px;
-    color: blue;
-
-}
-.tieu-de-doraemon:hover {
-    color: red;
-}
-.anh-doraemon {
-            width: 80px;
-    height: 80px;
-    position:relative;
-    top:20px;
-    border-radius: 8px;
-}
-.bai-hoc-5-hover {
-     font-size: 30px;
-    position: relative;
-    background: white;
-    color:blue;
-    padding: 20px 49px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: none;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display:flex;
-    top: 200px;
-}
-.bai-hoc-5-hover:hover {
-    background: white;
-    transform: translateY(-15px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.anh-ky-nang-song {
-                width: 80px;
-    height: 80px;
-    position:relative;
-    top:20px;
-    border-radius: 8px;
-}
-.tieu-de-noi-dung {
-    font-size: 20px;
-    position: relative;
-    left:20px;
-    color: blue;
-}
-.tieu-de-ky-nang-song {
-    color: red;
-}
-.bai-hoc-6-hover {
-         font-size: 30px;
-    position: relative;
-    background: white;
-    color:blue;
-    padding: 20px 49px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: none;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display:flex;
-    top: 250px;
-}
-.bai-hoc-6-hover:hover {
-     background: white;
-    transform: translateY(-15px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-}
-.anh-laptrinh {
-                    width: 80px;
-    height: 80px;
-    position:relative;
-    top:20px;
-    border-radius: 8px;
-
-}
-.tieu-de-laptrinh {
-       font-size: 20px;
-    position: relative;
-    left:30px;
-    color: blue;
-}
-.noi-dung-laptrinh {
-    color:red;
-}
-.bai-hoc-7-hover {
-        font-size: 30px;
-    position: relative;
-    background: white;
-    color:blue;
-    padding: 20px 49px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: none;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display:flex;
-    top: 300px;
-}
-.bai-hoc-7-hover:hover {
-     background: white;
-    transform: translateY(-15px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.anh-css {
-                        width: 80px;
-    height: 80px;
-    position:relative;
-    top:20px;
-    border-radius: 8px;
-}
-.tieu-de-css {
-         font-size: 20px;
-    position: relative;
-    left:20px;
-    color: blue;
-}
-.noi-dung-css {
- color: red;
 }
