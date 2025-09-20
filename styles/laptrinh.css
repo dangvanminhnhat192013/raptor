@@ -1,5 +1,45 @@
 body {
     background-color:lightblue;
+}.navbar {
+    padding:25px ;
+    background: linear-gradient(45deg, #ffa114, #ffd864, #fdf3c0);
+    position: relative;
+    
+
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+}
+
+.nav-link {
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: lightblue;
+    text-decoration: underline;
+    box-shadow: 15px;
+}
+
+.logo {
+    color: rgb(77, 82, 131);
+    font-weight: 800;
+    font-size: 32px;
+    
 }
 .laptrinh-web {
     position: relative;
@@ -16,6 +56,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display:flex;
     position:relative;
+    top:20px;
     
 }
 .laptrinh-tieu-de {
