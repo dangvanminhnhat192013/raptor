@@ -278,7 +278,7 @@ font-size: 20px;
     top: 250px;
 }
 .bai-hoc-6-hover:hover {
-        background: white;
+     background: white;
     transform: translateY(-15px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
@@ -294,9 +294,47 @@ font-size: 20px;
 .tieu-de-laptrinh {
        font-size: 20px;
     position: relative;
-    left:20px;
+    left:30px;
     color: blue;
 }
 .noi-dung-laptrinh {
     color:red;
+}
+.bai-hoc-7-hover {
+        font-size: 30px;
+    position: relative;
+    background: white;
+    color:blue;
+    padding: 20px 49px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display:flex;
+    top: 300px;
+}
+.bai-hoc-7-hover:hover {
+     background: white;
+    transform: translateY(-15px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.anh-css {
+                        width: 80px;
+    height: 80px;
+    position:relative;
+    top:20px;
+    border-radius: 8px;
+}
+.tieu-de-css {
+         font-size: 20px;
+    position: relative;
+    left:20px;
+    color: blue;
+}
+.noi-dung-css {
+ color: red;
 }
