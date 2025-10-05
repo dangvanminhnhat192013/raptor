@@ -28,14 +28,14 @@ document.addEventListener("DOMContentLoaded", function () {
 			const songuoidungdoan = document.getElementById("secret").value.trim();
 
 			if (songuoidungdoan) {
-				if (songuoidungdoan = sobimat) {
+				if (songuoidungdoan === sobimat) {
 					resultDiv.textContent = "chúc mừng bạn số bạn đoán đúng!";
-			} else if (songuoidungdoan > sonimat) {
+			} else if (songuoidungdoan > sobimat) {
 				resultDiv.textContent = "Số bạn đoán lớn hơn số bị mật!";
 		} else {
 			resultDiv.textContent = "Số bạn đoán nhỏ hơn số bí mật!";
 		} 
-	else {
+		else {
 			resultDiv.textContent = "Vui lòng nhập số bạn đoán!";
 		}
 	}
