@@ -25,20 +25,19 @@ document.addEventListener("DOMContentLoaded", function () {
 	if (form && resultDiv) {
 		form.addEventListener("submit", function (e) {
 			e.preventDefault();
-			const songuoidungdoan = document.getElementById("secret").value.trim();
+			const songuoidungdoan =  document.getElementById("secret").value.trim();
 
-			if (songuoidungdoan) {
+			if (!isNaN(songuoidungdoan)) {
 				if (songuoidungdoan === sobimat) {
 					resultDiv.textContent = "chúc mừng bạn số bạn đoán đúng!";
 			} else if (songuoidungdoan > sobimat) {
 				resultDiv.textContent = "Số bạn đoán lớn hơn số bị mật!";
-		} else {
+		    } else {
 			resultDiv.textContent = "Số bạn đoán nhỏ hơn số bí mật!";
-		} 
-		else {
+		     } 
+		} else {
 			resultDiv.textContent = "Vui lòng nhập số bạn đoán!";
 		}
-	}
 })
         }
         })

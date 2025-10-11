@@ -7,13 +7,18 @@
 </head>
 <body>
 
-   <h2>🔍 Đếm số lần xuất hiện của ký tự "a"</h2>
-    <form id="form">
-        <label for="inputText">Nhập chuỗi bất kỳ:</label>
-        <input type="text" id="inputText" required>
-        <button type="submit">Đếm ký tự</button>
-    </form>
-    <div id="result"></div>
+  
+    <!-- Hướng dẫn nhập -->
+    <label for="numberArray">Nhập mảng số (cách nhau bởi dấu phẩy):</label><br>
+    
+    <!-- Ô nhập mảng -->
+    <input type="text" id="numberArray" placeholder="Ví dụ: 1,5,4,9"><br><br>
+    
+    <!-- Nút bấm -->
+    <button onclick="findMax()">Tìm số lớn nhất</button>
+    
+    <!-- Nơi hiển thị kết quả -->
+    <div id="result" style="margin-top: 15px; font-weight: bold;"></div>
 
     <script src="../scripts/baitap6.js"></script>
 
