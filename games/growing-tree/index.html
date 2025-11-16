@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trò Chơi Trồng Cây</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="stats">
+            <div class="score">Điểm: <span id="score">0</span></div>
+            <div class="water">Nước: <span id="water">100</span>%</div>
+            <div class="sunlight">Ánh sáng: <span id="sunlight">100</span>%</div>
+        </div>
+        
+        <div class="tree-container">
+            <div id="tree" class="tree stage-0"></div>
+            <div id="soil" class="soil"></div>
+        </div>
+
+        <div class="controls">
+            <button id="waterBtn">Tưới nước 💧</button>
+            <button id="sunlightBtn">Điều chỉnh ánh sáng ☀️</button>
+            <button id="fertilizeBtn">Bón phân 🌱</button>
+        </div>
+
+        <div class="message" id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

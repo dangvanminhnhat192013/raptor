@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #87CEEB;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.tree-container {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.tree {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease;
+}
+
+.soil {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #8B4513;
+    border-radius: 0 0 10px 10px;
+}
+
+.stage-0 { 
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="10" fill="%238B4513"/></svg>') no-repeat center;
+    height: 20px;
+}
+
+.stage-1 {
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect x="45" y="30" width="10" height="40" fill="%238B4513"/><circle cx="50" cy="20" r="20" fill="%23228B22"/></svg>') no-repeat center;
+    height: 100px;
+}
+
+.stage-2 {
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect x="45" y="40" width="10" height="60" fill="%238B4513"/><circle cx="50" cy="30" r="30" fill="%23228B22"/></svg>') no-repeat center;
+    height: 150px;
+}
+
+.stage-3 {
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect x="45" y="50" width="10" height="80" fill="%238B4513"/><circle cx="50" cy="40" r="40" fill="%23228B22"/></svg>') no-repeat center;
+    height: 200px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#waterBtn {
+    background: #1E90FF;
+    color: white;
+}
+
+#sunlightBtn {
+    background: #FFD700;
+    color: black;
+}
+
+#fertilizeBtn {
+    background: #3CB371;
+    color: white;
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    min-height: 24px;
+    color: #333;
+}
