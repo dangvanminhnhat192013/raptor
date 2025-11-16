@@ -1,0 +1,76 @@
+body {
+    background-color:lightblue;
+}.navbar {
+    padding:25px ;
+    background: linear-gradient(45deg, #ffa114, #ffd864, #fdf3c0);
+    position: relative;
+    
+
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+}
+
+.nav-link {
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: lightblue;
+    text-decoration: underline;
+    box-shadow: 15px;
+}
+
+.logo {
+    color: rgb(77, 82, 131);
+    font-weight: 800;
+    font-size: 32px;
+    
+}
+.tieude-JS {
+    position: relative;
+    background: yellow;
+    color:blue;
+    padding: 20px 49px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display:flex;
+    position:relative;
+    top:20px;
+    
+}
+.JS-tieu-de {
+    font-size:20px;
+    display: flex;
+    align-items: center;
+}
+.anh-JS {
+    width: 300px;
+    height:200px;
+    position:relative;
+    top: 50px;
+}
+.JSlagi {
+    position: relative;
+    top: 50px;
+}
