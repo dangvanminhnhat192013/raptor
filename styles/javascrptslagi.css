@@ -74,3 +74,26 @@ body {
     position: relative;
     top: 50px;
 }
+.tieude-jslagi {
+    font-size: 25px;
+    font-weight: 900;
+}
+.noidung-jslagi {
+   position: relative;
+    background: yellow;
+    color:blue;
+    padding: 20px 49px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top:20px;
+    
+}
+.noidung-jslagi2 {
+    margin-top: 30px;
+}
